@@ -19,8 +19,8 @@ export type HandleProps = {
    */
   type: HandleType;
   /** Position of the handle
-   * @example Position.TopLeft, Position.TopRight,
-   * Position.BottomLeft, Position.BottomRight
+   * @example Position.Top, Position.Bottom,
+   * Position.Right, Position.Left
    */
   position: Position;
   /** Should you be able to connect to/from this handle */
